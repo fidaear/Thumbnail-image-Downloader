@@ -1,0 +1,79 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #1163ff;
+}
+form{
+    background-color: #fff;
+    width: 450px;
+    padding: 30px;
+    border-radius: 8px;
+}
+form header{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: #6c18ff;
+    margin-top: 20px;
+}
+form .url-input{
+    margin: 30px 0;
+}
+.url-input .title{
+    font-size: 22px;
+}
+.url-input .field{
+    height: 50px;
+    width: 100%;
+    margin-top: 5px;
+}
+.url-input .field input{
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: #f1f1f1;
+    padding: 0 9px;
+    font-size: 15px;
+    outline: none;
+    border-bottom: 3px solid #ccc;
+    font-family:'Noto Sans',sans-serif;
+}
+form .preview-area{
+    border: 2px dashed #111;
+    height: 200px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.preview-area span{
+    align-items: center;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.preview-area .Thumbnail{
+    width: 100%;
+    border-radius: 5px;
+    display: none;
+}
+.preview-area.active{
+    border: none;
+}
+.preview-area.active .Thumbnail{
+    display: block;
+}
+.preview-area.active span{
+    color: #111;
+    margin-top: 25px;
+}
+
+/*.....____________________________________________.........button____________________________________________*/
+
